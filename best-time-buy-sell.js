@@ -7,7 +7,7 @@ function maxProfit(prices){
             buy = prices[i];
             prices[i] =0;
         } else {
-            profit = Math.max[profit[i] -buy, profit];
+            profit = Math.max(profit[i] -buy, profit);
         }
     }
 return profit;
